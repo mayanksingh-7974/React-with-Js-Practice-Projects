@@ -1,5 +1,9 @@
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
-import "./style.css";
 
-createRoot(document.getElementById("root")).render(<App />);
+// Change the folder name here to switch projects:
+// import App from "./1_Counter/App.jsx";
+import App from "./2_Todo/App.jsx";
+
+createRoot(document.getElementById("root")).render(
+<App />
+);
